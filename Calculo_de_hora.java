@@ -49,7 +49,8 @@ public class Calculo_de_hora {
         // para dar positivo, é sempre o menor e depois o maior 
         
         System.out.println("Duration = " + t05.toDays());
-
+        
+       // este programa é apenas um estudo; 
         
 	}
 
