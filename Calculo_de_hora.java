@@ -44,7 +44,7 @@ public class Calculo_de_hora {
         Duration t04 = Duration.between(pastWeekDateTime, t02);
         Duration t05 = Duration.between(pastWeekDate.atTime(0,0), t01.atTime(0,0));
         t05 = Duration.between(pastWeekDate.atStartOfDay(), t01.atStartOfDay()); 
-     // qualquer uma das duas formas de escrever converte um date em um date time, pois 
+     // qualquer uma das duas formas de escrever converte um date em um date time, pois inicia-se o dia em 00:00; 
         System.out.println("Duration = " + t04.toHours());
         // para dar positivo, é sempre o menor e depois o maior 
         
